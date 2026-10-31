@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    container_name: hello-nobigonj-admin-dashboard
+    restart: always
+    ports:
+      - "3016:80"
+
