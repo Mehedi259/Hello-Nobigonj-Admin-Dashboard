@@ -20,7 +20,7 @@ export const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL?.replace(/\/+$/, '') ||
   (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
     ? 'http://localhost:8015/api/v1'
-    : 'http://46.225.103.236:8015/api/v1')
+    : 'https://api.hellonabiganj.com/api/v1')
 
 const STORAGE_KEYS = {
   TOKEN: 'hellonobigonj_admin_token',
